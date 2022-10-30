@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Righteous&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.landing{
+    background: url(homeback.png);
+    background-size:cover;
+    background-position: center;
+    height: 100vh; 
+}
+
+/* navbar */
+
+#logo{
+    font-size: 30px;
+    padding-right: 0;
+}
+#navbar li{
+    margin: 20px;
+    font-size: 18px;
+}
+#cartlogo{
+    scale: 2;
+}
+
+
+    /* homepage */
+
+#homepage h1{
+    font-size: 70px;
+}
+/* #homepage h4{
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: black;
+} */
+#headl2{
+    margin-top: 3px;
+}
+#downh1{
+    margin-top: 20px;
+}
+
+/* searchbar */
+
+.form-control{
+    border-radius:50px !important;
+    background: rgb(255, 255, 255,0.3) !important;
+    /* margin-right: 50px; */
+    height: 50px !important;
+    width: 300px !important;
+    border: 1px solid black !important;
+}
+.btn{
+    border-radius: 50px !important;
+    
+    color: rgb(255, 255, 255) !important;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 45px;
+    right: 5px;
+}
+
+
+/* downhome */
+
+#downhome h2{
+    font-size: 40px;
+}
+#downhome p{
+    margin-top: 25px;
+}
+#downhome h5{
+    font-size: 1.5em;
+}
+#downhome a{
+    margin-bottom: 30px !important;
+}
+#downhome .row{
+    margin-bottom: 80px !important;
+}
+
+ /* selling product */
+
+#selling{
+    background-color: #f7f7f7;
+}
+#selling h2{
+    margin-top: 45px;
+    font-size: 2.5em;
+    margin-bottom: 45px;
+}
+
+#selling img{
+    /* width: 211px; */
+    height: 248px;
+}
+#star{
+    color: gold;
+    scale: 0.9;
+    margin-top: -20px;
+}
+#plus{
+    scale: 3;
+    /* margin-left: 300px; */
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+#nxt{
+    color: black;
+    background-color: black;
+    border-radius: 30px;
+}
+#prv{
+    color: black;
+    background-color: black;
+    border-radius: 30px;
+
+}
+#viewall{
+    /* padding-bottom: 20px; */
+}
